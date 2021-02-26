@@ -401,6 +401,7 @@
     text-shadow: 0 0 10px black, 0 0 10px black;
     color: var(--light001);
     text-decoration: none;
+    font-size: 35px;
   }
 
   .pop--square,
@@ -435,7 +436,7 @@
         padding: 7rem;
     } */
 
-    h1 {
+    h1, .card__link {
       font-size: 32px;
     }
 
