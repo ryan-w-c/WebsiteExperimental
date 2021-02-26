@@ -7,22 +7,20 @@
 
   /* &#9770; moon &#9728; sun*/
 
-  input[type=text], select, textarea {
+  /* input[type=text], select, textarea {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
-    font-size: 1.25rem;
     color: var(--dark001);
     line-height: 165%;
     margin-bottom: 48px;
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
+    width: 100%; 
+    padding: 12px;
     border-radius: 10px;
-    border: 2px solid var(--dark001);    /* border-radius: 4px; Rounded borders */
-    /* box-sizing: border-box; Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+    border: 2px solid var(--dark001);   
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  } */
   
   /* Add a background color and some padding around the form */
   .container {
@@ -118,7 +116,7 @@
     top: 16px; 
     left: 16px;
     z-index: 10;
-    font-size: 3rem;
+    font-size: 45px;
     margin-bottom: 100px;
     transition-property: background-color, color;
     transition-duration: 0.3s;
@@ -241,7 +239,6 @@
     text-transform: uppercase;
     font-family: Open Sans, sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
     color: var(--light001);
     background-color: var(--dark001);
     border-radius: 50px;
@@ -400,7 +397,6 @@
   
   .card__link {
     font-family: yoxall, sans-serif;
-    font-size: 3rem;
     text-shadow: 0 0 10px black, 0 0 10px black;
     color: var(--light001);
     text-decoration: none;
