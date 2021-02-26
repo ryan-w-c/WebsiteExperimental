@@ -188,14 +188,14 @@
   
   .info__header {
     max-width: 370px;
-    margin: 82px 0 16px 0;
+    margin: 40px 0 0px 0;
   }
   
   .info__title {
     font-family: yoxall, sans-serif;
     color: var(--dark001);
     line-height: 105%;
-    margin-bottom: 56px;
+    margin-bottom: 25px;
   }
 
   h1 {
@@ -218,7 +218,7 @@
     height: 1px;
     width: 102px;
     background-color: var(--dark001);
-    margin-bottom: 48px;
+    margin-bottom: 10px;
   }
   
   .info__subtext {
@@ -429,10 +429,10 @@
       width: 95%;
     }
 
-    .pop--large,
+    /* .pop--large,
     .pop--square {
         padding: 7rem;
-    }
+    } */
 
     h1 {
       font-size: 32px;
@@ -454,12 +454,18 @@
       grid-column: 1 / span 2;
     }
   
-    .info,
-    .pop {
+    .info{
       grid-column: 1 / span 2;
       /* max-width: 95%; */
       padding: 10px;
       margin: auto;
+    }
+
+    .pop {
+      grid-column: 1 / span 2;
+      /* max-width: 95%; */
+      padding: 20px;
+      margin: 0px;
     }
   
     .card--large {
@@ -471,7 +477,7 @@
     .pop--square {
         height: 0;
         /* padding-top: 200%; */
-        padding: 12rem;
+        /* padding: 12rem; */
       }
 
     .card--med {
@@ -528,5 +534,5 @@
         margin-bottom: 56px;
     } */
 
-  }
+
   
