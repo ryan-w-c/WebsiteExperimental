@@ -51,7 +51,7 @@
 
   .pop__header {
     max-width: 70vw;
-    margin: 82px 0 16px 0;
+    margin: 20px;
   }
   
   .overlay {
@@ -209,7 +209,7 @@
     margin-bottom: 20px;
   }
 
-  h3 {
+  h3, .card__link {
     font-size: 28px;
   }
   
@@ -401,7 +401,6 @@
     text-shadow: 0 0 10px black, 0 0 10px black;
     color: var(--light001);
     text-decoration: none;
-    font-size: 35px;
   }
 
   .pop--square,
@@ -426,7 +425,7 @@
     flex: auto;
   }
   
-  @media screen and (max-width: 734px) {
+  @media screen and (max-width: 770px) {
     .main-nav {
       width: 95%;
     }
@@ -436,11 +435,11 @@
         padding: 7rem;
     } */
 
-    h1, .card__link {
+    h1 {
       font-size: 32px;
     }
 
-    h3 {
+    h3, .card__link {
       font-size: 21px;
     }
 
